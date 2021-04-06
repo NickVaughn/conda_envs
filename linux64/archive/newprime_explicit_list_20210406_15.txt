@@ -79,6 +79,7 @@ mkl-service=2.3.0=py36he904b0f_0
 mkl_fft=1.0.14=py36ha843d7b_0
 mkl_random=1.0.2=py36hd81dba3_0
 mock=4.0.2=py_0
+msgpack-python=0.6.1=py36h6bb024c_0
 munch=2.3.2=py36_0
 ncurses=6.1=he6710b0_1
 networkx=2.4=py_0
@@ -105,6 +106,7 @@ prompt_toolkit=2.0.9=py36_0
 psycopg2=2.7.6.1=py36h1ba5d50_0
 ptyprocess=0.6.0=py36_0
 pygments=2.4.2=py_0
+pynvim=0.3.2=py36_0
 pyparsing=2.4.2=py_0
 pyproj=1.9.6=py36h14380d9_0
 pyqt=5.9.2=py36h05f1152_2
