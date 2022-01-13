@@ -5,7 +5,7 @@
 https://repo.anaconda.com/pkgs/main/linux-64/_libgcc_mutex-0.1-main.conda
 https://repo.anaconda.com/pkgs/main/linux-64/_tflow_select-2.3.0-mkl.conda
 https://repo.anaconda.com/pkgs/main/linux-64/blas-1.0-mkl.conda
-https://repo.anaconda.com/pkgs/main/linux-64/ca-certificates-2021.10.26-h06a4308_2.conda
+https://repo.anaconda.com/pkgs/main/linux-64/ca-certificates-2020.1.1-0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/intel-openmp-2020.1-217.conda
 https://repo.anaconda.com/pkgs/main/linux-64/ld_impl_linux-64-2.33.1-h53a641e_7.conda
 https://repo.anaconda.com/pkgs/main/linux-64/libgfortran-ng-7.3.0-hdf63c60_0.conda
@@ -32,7 +32,7 @@ https://repo.anaconda.com/pkgs/main/linux-64/libxcb-1.13-h1bed415_1.conda
 https://conda.anaconda.org/conda-forge/linux-64/lz4-c-1.8.3-he1b5a44_1001.tar.bz2
 https://repo.anaconda.com/pkgs/main/linux-64/ncurses-6.1-he6710b0_1.conda
 https://conda.anaconda.org/conda-forge/linux-64/nitro-2.7.dev6-he1b5a44_1.tar.bz2
-https://repo.anaconda.com/pkgs/main/linux-64/openssl-1.1.1l-h7f8727e_0.conda
+https://repo.anaconda.com/pkgs/main/linux-64/openssl-1.1.1g-h7b6447c_0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/pcre-8.43-he6710b0_0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/pixman-0.38.0-h7b6447c_0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/tbb-2018.0.5-h6bb024c_0.conda
@@ -77,13 +77,10 @@ https://conda.anaconda.org/conda-forge/linux-64/libwebp-1.0.2-h56121f0_5.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/openjpeg-2.3.1-h981e76c_3.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/proj-6.3.0-hc80f0dc_0.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/python-3.6.10-h9d8adfe_1009_cpython.tar.bz2
-https://repo.anaconda.com/pkgs/main/noarch/affine-2.3.0-pyhd3eb1b0_0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/astor-0.8.0-py36_0.conda
-https://repo.anaconda.com/pkgs/main/noarch/attrs-21.2.0-pyhd3eb1b0_0.conda
 https://conda.anaconda.org/conda-forge/linux-64/cairo-1.16.0-hfb77d84_1002.tar.bz2
-https://repo.anaconda.com/pkgs/main/noarch/certifi-2020.6.20-pyhd3eb1b0_3.conda
+https://repo.anaconda.com/pkgs/main/linux-64/certifi-2020.4.5.1-py36_0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/cfitsio-3.470-hb7c8383_2.conda
-https://repo.anaconda.com/pkgs/main/noarch/click-7.1.2-pyhd3eb1b0_0.tar.bz2
 https://repo.anaconda.com/pkgs/main/linux-64/curl-7.69.1-hbc83047_0.conda
 https://repo.anaconda.com/pkgs/main/noarch/gast-0.3.3-py_0.conda
 https://conda.anaconda.org/conda-forge/linux-64/geotiff-1.5.1-h38872f0_8.tar.bz2
@@ -103,8 +100,6 @@ https://repo.anaconda.com/pkgs/main/noarch/tqdm-4.45.0-py_0.conda
 https://repo.anaconda.com/pkgs/main/noarch/werkzeug-1.0.1-py_0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/wrapt-1.12.1-py36h7b6447c_1.conda
 https://repo.anaconda.com/pkgs/main/linux-64/absl-py-0.9.0-py36_0.conda
-https://repo.anaconda.com/pkgs/main/noarch/click-plugins-1.1.1-pyhd3eb1b0_0.conda
-https://repo.anaconda.com/pkgs/main/linux-64/cligj-0.7.2-py36h06a4308_0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/cycler-0.10.0-py36_0.tar.bz2
 https://repo.anaconda.com/pkgs/main/noarch/google-pasta-0.2.0-py_0.conda
 https://conda.anaconda.org/conda-forge/linux-64/libdap4-3.20.4-hd3bb157_0.tar.bz2
@@ -120,7 +115,6 @@ https://repo.anaconda.com/pkgs/main/linux-64/grpcio-1.27.2-py36hf8bcb03_0.conda
 https://repo.anaconda.com/pkgs/main/noarch/joblib-0.14.1-py_0.conda
 https://conda.anaconda.org/conda-forge/linux-64/libgdal-3.0.4-h20022a4_0.tar.bz2
 https://repo.anaconda.com/pkgs/main/linux-64/markdown-3.1.1-py36_0.conda
-https://repo.anaconda.com/pkgs/main/noarch/munch-2.5.0-pyhd3eb1b0_0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/numpy-base-1.16.6-py36hde5b4d6_0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/protobuf-3.11.4-py36he6710b0_0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/wheel-0.34.2-py36_0.conda
@@ -137,12 +131,8 @@ https://repo.anaconda.com/pkgs/main/linux-64/mkl_fft-1.0.15-py36ha843d7b_0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/mkl_random-1.1.0-py36hd6b4f25_0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/numpy-1.16.6-py36hbc911f0_0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/scipy-1.4.1-py36h0b6359f_0.conda
-https://repo.anaconda.com/pkgs/main/linux-64/shapely-1.7.1-py36h1728cc4_0.conda
-https://repo.anaconda.com/pkgs/main/noarch/snuggs-1.4.7-pyhd3eb1b0_0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/tensorboard-1.14.0-py36hf484d3e_0.conda
-https://repo.anaconda.com/pkgs/main/linux-64/fiona-1.8.13.post1-py36hc820daa_0.conda
 https://repo.anaconda.com/pkgs/main/noarch/keras-preprocessing-1.1.0-py_1.tar.bz2
-https://repo.anaconda.com/pkgs/main/linux-64/rasterio-1.1.0-py36h41e4f33_0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/scikit-learn-0.22.1-py36hd81dba3_0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/tensorflow-base-1.14.0-mkl_py36h7ce6ba3_0.conda
 https://repo.anaconda.com/pkgs/main/noarch/tensorflow-estimator-1.14.0-py_0.tar.bz2
