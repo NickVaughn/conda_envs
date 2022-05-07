@@ -196,7 +196,6 @@ https://conda.anaconda.org/conda-forge/noarch/backports.functools_lru_cache-1.6.
 https://conda.anaconda.org/conda-forge/linux-64/brotlipy-0.7.0-py310h5764c6d_1004.tar.bz2
 https://conda.anaconda.org/conda-forge/noarch/click-plugins-1.1.1-py_0.tar.bz2
 https://conda.anaconda.org/conda-forge/noarch/cligj-0.7.2-pyhd8ed1ab_1.tar.bz2
-https://conda.anaconda.org/conda-forge/noarch/colorspacious-1.1.2-pyh24bf2e0_0.tar.bz2
 https://repo.anaconda.com/pkgs/main/linux-64/cryptography-36.0.0-py310h9ce1e76_0.conda
 https://conda.anaconda.org/conda-forge/linux-64/fonttools-4.32.0-py310h5764c6d_0.tar.bz2
 https://conda.anaconda.org/conda-forge/noarch/google-reauth-0.1.1-pyhd3deb0d_0.tar.bz2
@@ -230,7 +229,6 @@ https://conda.anaconda.org/conda-forge/linux-64/pyqtwebengine-5.12.1-py310hfcd6d
 https://conda.anaconda.org/conda-forge/linux-64/scikit-learn-1.0.2-py310h1246948_0.tar.bz2
 https://conda.anaconda.org/conda-forge/noarch/wcwidth-0.2.5-pyh9f0ad1d_2.tar.bz2
 https://repo.anaconda.com/pkgs/main/noarch/xarray-0.20.1-pyhd3eb1b0_1.conda
-https://conda.anaconda.org/conda-forge/noarch/cmocean-2.0-py_3.tar.bz2
 https://conda.anaconda.org/conda-forge/noarch/gcs-oauth2-boto-plugin-3.0-pyhd8ed1ab_0.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/gdal-3.4.2-py310h8172e47_4.tar.bz2
 https://conda.anaconda.org/conda-forge/noarch/networkx-2.8-pyhd8ed1ab_0.tar.bz2
