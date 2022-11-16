@@ -5,31 +5,26 @@ conda activate git_isofit
 ##pip failed to build wheel for gdal package
 conda install -c conda-forge gdal\>=3.2
 
-cbase=$(dirname $(dirname $(which python)))
-
-git clone https://github.com/isofit/isofit.git $cbase/opt/isofit.git
-pushd $cbase/opt/isofit.git
-git checkout master
-
-
-##Get the rest of the things with pip
-$(dirname $(which python))/pip install isofit 
-
-
-##The above overwrites numpy 1.19 with numpy 1.22, this message is shown:
-# Installing collected packages: msgpack, distlib, xxhash, pyrsistent, platformdirs, numpy, importlib-resources, filelock, virtualenv, jsonschema, ray, isofit
-#   Attempting uninstall: numpy
-#     Found existing installation: numpy 1.19.0
-#     Uninstalling numpy-1.19.0:
-#       Successfully uninstalled numpy-1.19.0
-# ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
-# numba 0.55.1 requires numpy<1.22,>=1.18, but you have numpy 1.22.4 which is incompatible.
-
-##Since numpy requirement was only >= 1.20 as reported in the script, let's try just replacing with a lower version
-$(dirname $(which python))/pip install --force-reinstall numpy==1.21
+##Get the repo
+git clone https://github.com/isofit/isofit.git $CONDA_PREFIX/opt/isofit.git
+pushd $CONDA_PREFIX/opt/isofit.git
+git branch --track current-release origin/current-release
+# git checkout master
+git pull --all
+git checkout current-release
+popd
 
 
+##Install
+$CONDA_PREFIX/bin/pip install --editable $CONDA_PREFIX/opt/isofit.git --use-feature=2020-resolver
 
 
-
-
+##Make sure environment variables are set
+pushd $CONDA_PREFIX
+mkdir -p ./etc/conda/activate.d
+mkdir -p ./etc/conda/deactivate.d
+echo '#!/bin/sh' > ./etc/conda/activate.d/env_vars.sh
+echo 'export ISOFIT_BASE=$CONDA_PREFIX/opt/isofit.git/isofit' >> ./etc/conda/activate.d/env_vars.sh
+echo '#!/bin/sh' > ./etc/conda/deactivate.d/env_vars.sh
+echo 'unset ISOFIT_BASE' >> ./etc/conda/deactivate.d/env_vars.sh
+popd

@@ -19,6 +19,17 @@ $(dirname $(which python))/pip install isofit
 $(dirname $(which python))/pip install --force-reinstall numpy==1.21
 
 
+##Make sure environment variables are set
+pushd $CONDA_PREFIX
+mkdir -p ./etc/conda/activate.d
+mkdir -p ./etc/conda/deactivate.d
+echo '#!/bin/sh' > ./etc/conda/activate.d/env_vars.sh
+#echo 'export ISOFIT_BASE=$CONDA_PREFIX/opt/isofit.git/isofit' >> ./etc/conda/activate.d/env_vars.sh
+echo 'export ISOFIT_BASE=$GAOACTIVE/support/software/isofit/isofit' >> ./etc/conda/activate.d/env_vars.sh
+echo '#!/bin/sh' > ./etc/conda/deactivate.d/env_vars.sh
+echo 'unset ISOFIT_BASE' >> ./etc/conda/deactivate.d/env_vars.sh
+popd
+popd
 
 
 
