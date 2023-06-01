@@ -15,6 +15,7 @@ cmake .. -DCMAKE_INSTALL_PREFIX=$CONDA_PREFIX
 make install
 popd
 popd
+rm -R lastools_build
 
 ##Install laspy with both bindings
 $CONDA_PREFIX/bin/pip install --prefix $CONDA_PREFIX laspy[lazrs,laszip]
