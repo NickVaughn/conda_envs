@@ -45,6 +45,9 @@ echo 'unset ISOFIT_DIR' >> ./etc/conda/deactivate.d/env_vars.sh
 popd
 popd
 
+##Also need shapely
+mamba install -c conda-forge shapely
+
 
 
 
