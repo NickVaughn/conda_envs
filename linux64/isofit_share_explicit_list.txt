@@ -148,12 +148,10 @@ http://conda.anaconda.org/conda-forge/linux-64/xcb-util-renderutil-0.3.9-hd59030
 http://conda.anaconda.org/conda-forge/linux-64/xcb-util-wm-0.4.1-h8ee46fc_1.conda
 https://conda.anaconda.org/conda-forge/linux-64/xorg-libx11-1.8.7-h8ee46fc_0.conda
 https://conda.anaconda.org/conda-forge/noarch/affine-2.4.0-pyhd8ed1ab_0.conda
-https://conda.anaconda.org/conda-forge/noarch/attrs-23.2.0-pyh71513ae_0.conda
 https://conda.anaconda.org/conda-forge/linux-64/aws-c-event-stream-0.4.2-hf9b2f7b_4.conda
 https://conda.anaconda.org/conda-forge/linux-64/aws-c-http-0.8.1-h5d7533a_5.conda
 https://conda.anaconda.org/conda-forge/linux-64/azure-core-cpp-1.11.1-h91d86a7_1.conda
 https://conda.anaconda.org/conda-forge/linux-64/brotli-1.1.0-hd590300_1.conda
-https://conda.anaconda.org/conda-forge/noarch/certifi-2024.2.2-pyhd8ed1ab_0.conda
 http://conda.anaconda.org/conda-forge/noarch/cfgv-3.3.1-pyhd8ed1ab_0.tar.bz2
 http://conda.anaconda.org/conda-forge/linux-64/cfitsio-4.3.1-hbdc6101_0.conda
 https://conda.anaconda.org/conda-forge/noarch/click-8.1.7-unix_pyh707e725_0.conda
@@ -164,7 +162,6 @@ https://conda.anaconda.org/conda-forge/noarch/decorator-5.1.1-pyhd8ed1ab_0.tar.b
 http://conda.anaconda.org/conda-forge/noarch/distlib-0.3.8-pyhd8ed1ab_0.conda
 http://conda.anaconda.org/conda-forge/noarch/exceptiongroup-1.2.0-pyhd8ed1ab_2.conda
 https://conda.anaconda.org/conda-forge/noarch/executing-2.0.1-pyhd8ed1ab_0.conda
-http://conda.anaconda.org/conda-forge/noarch/filelock-3.13.1-pyhd8ed1ab_0.conda
 https://conda.anaconda.org/conda-forge/linux-64/fontconfig-2.14.2-h14ed4e7_0.conda
 http://conda.anaconda.org/conda-forge/linux-64/freexl-2.0.0-h743c826_0.conda
 https://conda.anaconda.org/conda-forge/linux-64/glib-tools-2.78.4-hfc55251_4.conda
@@ -180,7 +177,6 @@ http://conda.anaconda.org/conda-forge/linux-64/libsystemd0-255-h3516f8a_1.conda
 https://conda.anaconda.org/conda-forge/noarch/munkres-1.1.4-pyh9f0ad1d_0.tar.bz2
 http://conda.anaconda.org/conda-forge/noarch/networkx-3.2.1-pyhd8ed1ab_0.conda
 https://conda.anaconda.org/conda-forge/linux-64/openjpeg-2.5.2-h488ebb8_0.conda
-https://conda.anaconda.org/conda-forge/noarch/packaging-23.2-pyhd8ed1ab_0.conda
 https://conda.anaconda.org/conda-forge/noarch/parso-0.8.3-pyhd8ed1ab_0.tar.bz2
 https://conda.anaconda.org/conda-forge/noarch/pep8-1.7.1-py_0.tar.bz2
 https://conda.anaconda.org/conda-forge/noarch/pickleshare-0.7.5-py_1003.tar.bz2
@@ -195,8 +191,6 @@ https://conda.anaconda.org/conda-forge/noarch/pycparser-2.21-pyhd8ed1ab_0.tar.bz
 https://conda.anaconda.org/conda-forge/noarch/pygments-2.17.2-pyhd8ed1ab_0.conda
 http://conda.anaconda.org/conda-forge/noarch/pyparsing-3.1.2-pyhd8ed1ab_0.conda
 http://conda.anaconda.org/conda-forge/noarch/python-tzdata-2024.1-pyhd8ed1ab_0.conda
-http://conda.anaconda.org/conda-forge/noarch/pytz-2024.1-pyhd8ed1ab_0.conda
-https://conda.anaconda.org/conda-forge/linux-64/pyyaml-6.0.1-py310h2372a71_1.conda
 http://conda.anaconda.org/conda-forge/noarch/setuptools-69.1.1-pyhd8ed1ab_0.conda
 https://conda.anaconda.org/conda-forge/noarch/six-1.16.0-pyh6c4a22f_0.tar.bz2
 http://conda.anaconda.org/conda-forge/noarch/threadpoolctl-3.3.0-pyhc1e730c_0.conda
