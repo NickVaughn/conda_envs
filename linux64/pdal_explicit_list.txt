@@ -1,10 +1,11 @@
 # This file may be used to create an environment using:
 # $ conda create --name <env> --file <this file>
 # platform: linux-64
+# created-by: conda 24.9.0
 @EXPLICIT
 https://repo.anaconda.com/pkgs/main/linux-64/_tflow_select-2.3.0-mkl.conda
 https://conda.anaconda.org/conda-forge/linux-64/_libgcc_mutex-0.1-conda_forge.tar.bz2
-https://conda.anaconda.org/conda-forge/linux-64/ca-certificates-2024.7.4-hbcca054_0.conda
+https://conda.anaconda.org/conda-forge/linux-64/ca-certificates-2025.1.31-hbcca054_0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/intel-openmp-2020.0-166.conda
 https://conda.anaconda.org/conda-forge/linux-64/ld_impl_linux-64-2.33.1-h53a641e_7.tar.bz2
 https://repo.anaconda.com/pkgs/main/linux-64/libffi-3.2.1-hd88cf55_4.conda
@@ -133,7 +134,7 @@ https://repo.anaconda.com/pkgs/main/linux-64/cligj-0.7.2-py36h06a4308_0.conda
 https://conda.anaconda.org/conda-forge/linux-64/cycler-0.10.0-py36_0.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/cytoolz-0.10.1-py36h516909a_0.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/harfbuzz-2.4.0-h9f30f68_3.tar.bz2
-https://conda.anaconda.org/conda-forge/noarch/laspy-1.6.0-pyh5ca1d4c_0.tar.bz2
+https://conda.anaconda.org/conda-forge/noarch/laspy-1.7.0-pyh5ca1d4c_0.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/libdap4-3.20.4-hd3bb157_0.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/libnetcdf-4.7.3-nompi_h9f9fd6a_101.tar.bz2
 https://repo.anaconda.com/pkgs/main/linux-64/mkl-service-2.3.0-py36he904b0f_0.conda
